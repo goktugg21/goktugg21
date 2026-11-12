@@ -2,9 +2,9 @@
 
 Final-year AI student at VU Amsterdam who ships production software. Two research preprints, one platform running for a client, and the AI projects below are all public.
 
+[![bouwly.nl](https://img.shields.io/badge/live-bouwly.nl-1f3a5f)](https://bouwly.nl)
 [![kubusklus.nl](https://img.shields.io/badge/live-kubusklus.nl-1f3a5f)](https://kubusklus.nl)
 [![OSION](https://img.shields.io/badge/live-OSION%20Bouwtechniek-1f3a5f)](https://osion-website.vercel.app/en)
-[![bouwly.nl](https://img.shields.io/badge/live-bouwly.nl-1f3a5f)](https://bouwly.nl)
 [![Preprint: Vicsek flocking](https://img.shields.io/badge/preprint-Vicsek%20flocking-8a2b2b)](https://doi.org/10.20944/preprints202608.1003.v1)
 [![Preprint: phishing URLs](https://img.shields.io/badge/preprint-phishing%20URL%20detection-8a2b2b)](https://doi.org/10.20944/preprints202606.1345.v1)
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-profile-00a388)](https://www.researchgate.net/profile/Goktug-Yildirim)
@@ -60,9 +60,9 @@ flowchart LR
 
 | Site | What it is | Stack |
 |---|---|---|
+| [bouwly.nl](https://bouwly.nl) | Bouwly Web Studio, the studio I do freelance web work under. One-page NL/EN site | Next.js 14 |
 | [kubusklus.nl](https://kubusklus.nl) · [code](https://github.com/goktugg21/kubusklus-website) | Bilingual site for an Amsterdam renovation firm, designed, built and launched by me. Quote form with server-side validation, rate limiting and bot protection | Next.js, TypeScript, Resend, Vercel |
 | [OSION Bouwtechniek](https://osion-website.vercel.app/en) | Bilingual NL/EN site for a construction-technology firm. It has a login-protected admin panel where the client replaces site photos, manages portfolio projects with before/after pairs, reads and answers quote requests, and sees cookie-free visitor statistics | Next.js 16, TypeScript, Upstash Redis, Vercel Blob, Resend |
-| [bouwly.nl](https://bouwly.nl) | Bouwly Web Studio, the studio I do freelance web work under. One-page NL/EN site | Next.js 14 |
 
 ## What I work with
 
@@ -80,4 +80,4 @@ Turkish (native), English (fluent)
 
 ## Elsewhere
 
-Amsterdam. [LinkedIn](https://www.linkedin.com/in/goktugyildirim1) · [ResearchGate](https://www.researchgate.net/profile/Goktug-Yildirim) · goktugyildirim65@gmail.com
+Amsterdam. [bouwly.nl](https://bouwly.nl) · [LinkedIn](https://www.linkedin.com/in/goktugyildirim1) · [ResearchGate](https://www.researchgate.net/profile/Goktug-Yildirim) · goktugyildirim65@gmail.com
