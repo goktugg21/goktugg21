@@ -18,8 +18,8 @@ Open to a thesis internship or an AI engineering internship in the Netherlands i
 
 | Preprint | Authors | Links |
 |---|---|---|
-| **When and How Flocks Break: Field of View and Density in the Vicsek Model** (Aug 2026) | B. Kaban, G. Yıldırım, M. Gundogan, D. Popusoi | [doi:10.20944/preprints202608.1003.v1](https://doi.org/10.20944/preprints202608.1003.v1) · [code](https://github.com/goktugg21/vicsek-flocking-field-of-view) |
-| **Impact of Feature Preprocessing on Classical Machine Learning Models for Phishing URL Detection** (Jun 2026) | B. Kaban, G. Yıldırım, M. Arslan | [doi:10.20944/preprints202606.1345.v1](https://doi.org/10.20944/preprints202606.1345.v1) · [code](https://github.com/goktugg21/phishing-url-preprocessing-study) |
+| **When and How Flocks Break: Field of View and Density in the Vicsek Model** (Aug 2026) | B. Kaban, G. Yıldırım, M. Gundogan, D. Popusoi | [doi:10.20944/preprints202608.1003.v1](https://doi.org/10.20944/preprints202608.1003.v1) · [code](https://github.com/yildirimgoktug/vicsek-flocking-field-of-view) |
+| **Impact of Feature Preprocessing on Classical Machine Learning Models for Phishing URL Detection** (Jun 2026) | B. Kaban, G. Yıldırım, M. Arslan | [doi:10.20944/preprints202606.1345.v1](https://doi.org/10.20944/preprints202606.1345.v1) · [code](https://github.com/yildirimgoktug/phishing-url-preprocessing-study) |
 
 Both are preprints on Preprints.org and are not peer-reviewed. Full list on [ResearchGate](https://www.researchgate.net/profile/Goktug-Yildirim).
 
@@ -27,13 +27,13 @@ Both are preprints on Preprints.org and are not peer-reviewed. Full list on [Res
 
 | Project | What it is | Result |
 |---|---|---|
-| [cartpole-dqn-generalist](https://github.com/goktugg21/cartpole-dqn-generalist) | One DQN agent for CartPole pole lengths 0.4 to 1.8, five training strategies, 25 seeded runs | Reward shaping: mean test score 1,877 → 10,761 |
-| [popcorn-rag-movie-search](https://github.com/goktugg21/popcorn-rag-movie-search) | Fully local RAG movie search over 10,800+ films: LlamaIndex, pgvector, Ollama (team of 4) | [Reranking experiment](https://github.com/goktugg21/popcorn-rag-movie-search/tree/goktug/rerank-experiment/experiments/rerank): top-1 retrieval 36% → 80% |
-| [cooker-ai-recipe-voice-agent](https://github.com/goktugg21/cooker-ai-recipe-voice-agent) | Spoken recipe recommender: Whisper, BERT intent/slot model, MARBEL dialogue manager, Prolog (team of 5) | 89.3% intent accuracy |
-| [voice-accessible-restaurant-ordering](https://github.com/goktugg21/voice-accessible-restaurant-ordering) | Voice-only ordering on a Furhat robot, with a user study (team of 3) | SUS 82.5 vs 67.5, p = 0.03 |
-| [schnapsen-ml-agents](https://github.com/goktugg21/schnapsen-ml-agents) | Neural network vs logistic regression agents for the card game Schnapsen (team of 2) | 36% → 64.5% win rate with 10× more training games |
-| [nlp-ner-sentiment-topic-analysis](https://github.com/goktugg21/nlp-ner-sentiment-topic-analysis) | Sentiment, named-entity recognition and topic classification on airline tweets (team of 4) | |
-| [ufc-knowledge-graph](https://github.com/goktugg21/ufc-knowledge-graph) | Ontology, RDF integration and SPARQL over a UFC knowledge graph (team of 3) | |
+| [cartpole-dqn-generalist](https://github.com/yildirimgoktug/cartpole-dqn-generalist) | One DQN agent for CartPole pole lengths 0.4 to 1.8, five training strategies, 25 seeded runs | Reward shaping: mean test score 1,877 → 10,761 |
+| [popcorn-rag-movie-search](https://github.com/yildirimgoktug/popcorn-rag-movie-search) | Fully local RAG movie search over 10,800+ films: LlamaIndex, pgvector, Ollama (team of 4) | [Reranking experiment](https://github.com/yildirimgoktug/popcorn-rag-movie-search/tree/goktug/rerank-experiment/experiments/rerank): top-1 retrieval 36% → 80% |
+| [cooker-ai-recipe-voice-agent](https://github.com/yildirimgoktug/cooker-ai-recipe-voice-agent) | Spoken recipe recommender: Whisper, BERT intent/slot model, MARBEL dialogue manager, Prolog (team of 5) | 89.3% intent accuracy |
+| [voice-accessible-restaurant-ordering](https://github.com/yildirimgoktug/voice-accessible-restaurant-ordering) | Voice-only ordering on a Furhat robot, with a user study (team of 3) | SUS 82.5 vs 67.5, p = 0.03 |
+| [schnapsen-ml-agents](https://github.com/yildirimgoktug/schnapsen-ml-agents) | Neural network vs logistic regression agents for the card game Schnapsen (team of 2) | 36% → 64.5% win rate with 10× more training games |
+| [nlp-ner-sentiment-topic-analysis](https://github.com/yildirimgoktug/nlp-ner-sentiment-topic-analysis) | Sentiment, named-entity recognition and topic classification on airline tweets (team of 4) | |
+| [ufc-knowledge-graph](https://github.com/yildirimgoktug/ufc-knowledge-graph) | Ontology, RDF integration and SPARQL over a UFC knowledge graph (team of 3) | |
 
 ## Production software
 
@@ -61,7 +61,7 @@ flowchart LR
 | Site | What it is | Stack |
 |---|---|---|
 | [bouwly.nl](https://bouwly.nl) | Bouwly Web Studio, the studio I do freelance web work under. One-page NL/EN site | Next.js 14 |
-| [kubusklus.nl](https://kubusklus.nl) · [code](https://github.com/goktugg21/kubusklus-website) | Bilingual site for an Amsterdam renovation firm, designed, built and launched by me. Quote form with server-side validation, rate limiting and bot protection | Next.js, TypeScript, Resend, Vercel |
+| [kubusklus.nl](https://kubusklus.nl) · [code](https://github.com/yildirimgoktug/kubusklus-website) | Bilingual site for an Amsterdam renovation firm, designed, built and launched by me. Quote form with server-side validation, rate limiting and bot protection | Next.js, TypeScript, Resend, Vercel |
 | [OSION Bouwtechniek](https://osion-website.vercel.app/en) | Bilingual NL/EN site for a construction-technology firm. It has a login-protected admin panel where the client replaces site photos, manages portfolio projects with before/after pairs, reads and answers quote requests, and sees cookie-free visitor statistics | Next.js 16, TypeScript, Upstash Redis, Vercel Blob, Resend |
 
 ## What I work with
