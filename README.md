@@ -12,7 +12,7 @@ Final-year AI student at VU Amsterdam who ships production software. Two researc
 
 Final-year BSc Artificial Intelligence student at Vrije Universiteit Amsterdam. I work on LLM systems, agents and reinforcement learning, and I build and run production software with AI coding agents: scoped tasks, security rules bound to tests, and independent verification before anything merges.
 
-Open to a thesis internship or an AI engineering internship in the Netherlands in 2027.
+Open to internships in the Netherlands in 2027: AI engineering, software engineering or full-stack web development, and a bachelor thesis internship.
 
 ## Research
 
@@ -32,14 +32,15 @@ Both are preprints on Preprints.org and are not peer-reviewed. Full list on [Res
 | [cooker-ai-recipe-voice-agent](https://github.com/yildirimgoktug/cooker-ai-recipe-voice-agent) | Spoken recipe recommender: Whisper, BERT intent/slot model, MARBEL dialogue manager, Prolog (team of 5) | 89.3% intent accuracy |
 | [voice-accessible-restaurant-ordering](https://github.com/yildirimgoktug/voice-accessible-restaurant-ordering) | Voice-only ordering on a Furhat robot, with a user study (team of 3) | SUS 82.5 vs 67.5, p = 0.03 |
 | [schnapsen-ml-agents](https://github.com/yildirimgoktug/schnapsen-ml-agents) | Neural network vs logistic regression agents for the card game Schnapsen (team of 2) | 36% → 64.5% win rate with 10× more training games |
+| [cleanops-assistant](https://github.com/yildirimgoktug/cleanops-assistant) | Role-aware assistant for CleanOps: a small Qwen model fine-tuned with LoRA that acts through the platform's own API | In progress (design stage) |
 | [nlp-ner-sentiment-topic-analysis](https://github.com/yildirimgoktug/nlp-ner-sentiment-topic-analysis) | Sentiment, named-entity recognition and topic classification on airline tweets (team of 4) | |
 | [ufc-knowledge-graph](https://github.com/yildirimgoktug/ufc-knowledge-graph) | Ontology, RDF integration and SPARQL over a UFC knowledge graph (team of 3) | |
 
 ## Production software
 
-### CleanOps (private repository)
+### CleanOps (source private, [case study public](https://github.com/yildirimgoktug/cleanops-case-study))
 
-A multi-tenant operations, invoicing and client-portal platform for a Dutch facility-services firm: tickets, recurring work, extra-work quotes, contracts, staff hours and invoices, with a portal where each client sees only its own organisation and buildings. I built it on my own with parallel Claude Code agents. It runs on the client's acceptance environment; the source is private.
+A multi-tenant operations, invoicing and client-portal platform for a Dutch facility-services firm: tickets, recurring work, extra-work quotes, contracts, staff hours and invoices, with a portal where each client sees only its own organisation and buildings. I built it on my own with parallel Claude Code agents. It runs on the client's acceptance environment. The source is private; the [case study](https://github.com/yildirimgoktug/cleanops-case-study) documents the architecture, access-control model, invoicing, testing and CI.
 
 ```mermaid
 flowchart LR
