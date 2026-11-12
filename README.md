@@ -1,16 +1,16 @@
 # Göktuğ Yıldırım
 
-Final-year AI student at VU Amsterdam who ships production software. Two research preprints, one platform running for a client, and the AI projects below are all public.
+Final-year AI student at VU Amsterdam who builds and delivers client software. Two research preprints and the AI projects below are public; the client platform I built is private and documented in a public case study.
 
 [![bouwly.nl](https://img.shields.io/badge/live-bouwly.nl-1f3a5f)](https://bouwly.nl)
 [![kubusklus.nl](https://img.shields.io/badge/live-kubusklus.nl-1f3a5f)](https://kubusklus.nl)
-[![OSION](https://img.shields.io/badge/live-OSION%20Bouwtechniek-1f3a5f)](https://osion-website.vercel.app/en)
+[![OSION](https://img.shields.io/badge/preview-OSION%20Bouwtechniek-1f3a5f)](https://osion-website.vercel.app/en)
 [![Preprint: Vicsek flocking](https://img.shields.io/badge/preprint-Vicsek%20flocking-8a2b2b)](https://doi.org/10.20944/preprints202608.1003.v1)
 [![Preprint: phishing URLs](https://img.shields.io/badge/preprint-phishing%20URL%20detection-8a2b2b)](https://doi.org/10.20944/preprints202606.1345.v1)
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-profile-00a388)](https://www.researchgate.net/profile/Goktug-Yildirim)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-goktugyildirim1-0a66c2)](https://www.linkedin.com/in/goktugyildirim1)
 
-Final-year BSc Artificial Intelligence student at Vrije Universiteit Amsterdam. I work on LLM systems, agents and reinforcement learning, and I build and run production software with AI coding agents: scoped tasks, security rules bound to tests, and independent verification before anything merges.
+Final-year BSc Artificial Intelligence student at Vrije Universiteit Amsterdam. I work on LLM systems, agents and reinforcement learning, and I build client software with AI coding agents: scoped tasks, security rules bound to tests, and independent verification before anything merges.
 
 Open to internships in the Netherlands in 2027: AI engineering, software engineering or full-stack web development, and a bachelor thesis internship.
 
@@ -32,11 +32,11 @@ Both are preprints on Preprints.org and are not peer-reviewed. Full list on [Res
 | [cooker-ai-recipe-voice-agent](https://github.com/yildirimgoktug/cooker-ai-recipe-voice-agent) | Spoken recipe recommender: Whisper, BERT intent/slot model, MARBEL dialogue manager, Prolog (team of 5) | 89.3% intent accuracy |
 | [voice-accessible-restaurant-ordering](https://github.com/yildirimgoktug/voice-accessible-restaurant-ordering) | Voice-only ordering on a Furhat robot, with a user study (team of 3) | SUS 82.5 vs 67.5, p = 0.03 |
 | [schnapsen-ml-agents](https://github.com/yildirimgoktug/schnapsen-ml-agents) | Neural network vs logistic regression agents for the card game Schnapsen (team of 2) | 36% → 64.5% win rate with 10× more training games |
-| [cleanops-assistant](https://github.com/yildirimgoktug/cleanops-assistant) | Role-aware assistant for CleanOps: a small Qwen model fine-tuned with LoRA that acts through the platform's own API | In progress (design stage) |
+| [cleanops-assistant](https://github.com/yildirimgoktug/cleanops-assistant) | Role-aware assistant for CleanOps: a small Qwen model fine-tuned with LoRA that acts through the platform's own API | In progress: verified training data and first LoRA runs, no results yet |
 | [nlp-ner-sentiment-topic-analysis](https://github.com/yildirimgoktug/nlp-ner-sentiment-topic-analysis) | Sentiment, named-entity recognition and topic classification on airline tweets (team of 4) | |
 | [ufc-knowledge-graph](https://github.com/yildirimgoktug/ufc-knowledge-graph) | Ontology, RDF integration and SPARQL over a UFC knowledge graph (team of 3) | |
 
-## Production software
+## Client software
 
 ### CleanOps (source private, [case study public](https://github.com/yildirimgoktug/cleanops-case-study))
 
@@ -50,7 +50,7 @@ flowchart LR
     RBAC --> DB[("PostgreSQL")]
     API --> W["Celery worker and beat"]
     W --> R[("Redis")]
-    CI["GitHub Actions<br/>6,000+ tests in 13 shards"] -. "gates every merge" .-> API
+    CI["GitHub Actions<br/>6,100+ tests in 13 shards"] -. "gates every merge" .-> API
 ```
 
 - **Security:** probing 194 read endpoints as 9 roles found zero tenant leaks and zero server errors; role-scoped state machines allowed 0 illegal moves in 354 adversarial attempts.
@@ -63,11 +63,11 @@ flowchart LR
 |---|---|---|
 | [bouwly.nl](https://bouwly.nl) | Bouwly Web Studio, the studio I do freelance web work under. One-page NL/EN site | Next.js 14 |
 | [kubusklus.nl](https://kubusklus.nl) · [code](https://github.com/yildirimgoktug/kubusklus-website) | Bilingual site for an Amsterdam renovation firm, designed, built and launched by me. Quote form with server-side validation, rate limiting and bot protection | Next.js, TypeScript, Resend, Vercel |
-| [OSION Bouwtechniek](https://osion-website.vercel.app/en) | Bilingual NL/EN site for a construction-technology firm. It has a login-protected admin panel where the client replaces site photos, manages portfolio projects with before/after pairs, reads and answers quote requests, and sees cookie-free visitor statistics | Next.js 16, TypeScript, Upstash Redis, Vercel Blob, Resend |
+| [OSION Bouwtechniek](https://osion-website.vercel.app/en) (preview, in progress) | Bilingual NL/EN site for a construction-technology firm. It has a login-protected admin panel where the client replaces site photos, manages portfolio projects with before/after pairs, reads and answers quote requests, and sees cookie-free visitor statistics | Next.js 16, TypeScript, Upstash Redis, Vercel Blob, Resend |
 
 ## What I work with
 
-**AI and ML** PyTorch, Hugging Face Transformers (BERT fine-tuning), scikit-learn, pandas, NumPy, deep RL (DQN, Q-learning), statistical testing
+**AI and ML** PyTorch, Hugging Face Transformers, scikit-learn, pandas, NumPy, deep RL (DQN, Q-learning), statistical testing
 
 **LLM engineering** RAG (LlamaIndex, pgvector, cross-encoder reranking), retrieval evaluation (top-k accuracy, MRR), Ollama, Whisper, Claude Code multi-agent workflows, prompt and context engineering
 
