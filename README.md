@@ -60,7 +60,7 @@ flowchart LR
 
 | Site | What it is | Stack |
 |---|---|---|
-| [kubusklus.nl](https://kubusklus.nl) · [code](https://github.com/goktugg21/kubusklus-website) | Bilingual site for an Amsterdam renovation firm, designed, built and launched by me. Quote form with server-side validation, rate limiting and a honeypot | Next.js 16, TypeScript, Resend, Vercel |
+| [kubusklus.nl](https://kubusklus.nl) · [code](https://github.com/goktugg21/kubusklus-website) | Bilingual site for an Amsterdam renovation firm, designed, built and launched by me. Quote form with server-side validation, rate limiting and bot protection | Next.js, TypeScript, Resend, Vercel |
 | [OSION Bouwtechniek](https://osion-website.vercel.app/en) | Bilingual NL/EN site for a construction-technology firm. It has a login-protected admin panel where the client replaces site photos, manages portfolio projects with before/after pairs, reads and answers quote requests, and sees cookie-free visitor statistics | Next.js 16, TypeScript, Upstash Redis, Vercel Blob, Resend |
 | [bouwly.nl](https://bouwly.nl) | Bouwly Web Studio, the studio I do freelance web work under. One-page NL/EN site | Next.js 14 |
 
