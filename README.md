@@ -55,7 +55,7 @@ flowchart LR
 
 - **Security:** probing 194 read endpoints as 9 roles found zero tenant leaks and zero server errors; role-scoped state machines allowed 0 illegal moves in 354 adversarial attempts.
 - **Testing and CI:** 6,100+ backend tests. The suite went from a 5.9-hour serial run to about 15 minutes across 13 parallel shards, with a checker that fails the build if any test module is left out of the shard plan.
-- **How it was built:** parallel Claude Code agents in isolated git worktrees, each with a scoped task, hard security invariants bound to tests, and independent verification of every branch before merge.
+- **How it was built:** parallel Claude Code agents in isolated git worktrees, each with a scoped task, hard security invariants bound to tests, and independent verification of every branch before merge. The method is published as [agent-ops](https://github.com/yildirimgoktug/agent-ops): templates, worktree scripts and the CI shard-plan checker.
 
 ### Client and studio websites
 
