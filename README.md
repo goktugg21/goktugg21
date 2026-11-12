@@ -43,8 +43,8 @@ A multi-tenant operations, invoicing and client-portal platform for a Dutch faci
 
 ```mermaid
 flowchart LR
-    U["Provider staff and client users<br/>9 roles"] --> SPA["React 19 + TypeScript SPA<br/>138 pages, NL / EN"]
-    SPA -- "REST + JWT" --> API["Django 5.2 + DRF<br/>about 350 endpoints"]
+    U["Provider staff and client users<br/>9 roles"] --> SPA["React 19 + TypeScript SPA<br/>77 routes, NL / EN"]
+    SPA -- "REST + JWT" --> API["Django 5.2 + DRF<br/>329 API routes"]
     API --> RBAC["Role and tenant scoping<br/>on every request"]
     RBAC --> DB[("PostgreSQL")]
     API --> W["Celery worker and beat"]
@@ -53,7 +53,7 @@ flowchart LR
 ```
 
 - **Security:** probing 194 read endpoints as 9 roles found zero tenant leaks and zero server errors; role-scoped state machines allowed 0 illegal moves in 354 adversarial attempts.
-- **Testing and CI:** 6,000+ backend tests. CI went from a 5.9-hour serial run to about 20 minutes across 13 parallel shards, with a checker that fails the build if any test module is left out of the shard plan.
+- **Testing and CI:** 6,100+ backend tests. The suite went from a 5.9-hour serial run to about 15 minutes across 13 parallel shards, with a checker that fails the build if any test module is left out of the shard plan.
 - **How it was built:** parallel Claude Code agents in isolated git worktrees, each with a scoped task, hard security invariants bound to tests, and independent verification of every branch before merge.
 
 ### Client and studio websites
